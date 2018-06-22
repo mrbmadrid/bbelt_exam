@@ -1,0 +1,72 @@
+@{
+    ViewData["Title"] = "Home";
+}
+@model bbelt_exam.Models.Activity
+
+@using bbelt_exam.Models
+
+@using System.Linq
+
+
+
+<div class="header">
+    
+    <h1>Dojo Activity Center</h1>
+
+    <a id="home" href="/Home">Home</a>
+
+    <a id="logout" href="Logout">Log Off</a>
+
+</div>
+
+
+<div id="heading">
+    
+    <h3>@Model.Title</h3>
+
+    @if (ViewBag.ActiveUserId == Model.UserId)
+    {
+        <a href="/Delete/@Model.ActivityId"><button class="btn btn-primary theButton">Delete</button></a>
+    }
+    else
+    {
+        @if (Model.Participants.Where(p => p.UserId == ViewBag.ActiveUserId).Count() == 0)
+        {
+            <a href="/Join/@Model.ActivityId"><button class="btn btn-primary theButton">JOIN</button></a>
+        }
+        else
+        {
+            <a href="/Leave/@Model.ActivityId"><button class="btn btn-primary theButton">LEAVE</button></a>
+        }
+    }
+
+</div>
+
+
+<div class="theSections">
+    
+    <h3>Event Coordinator: @ViewBag.User.FirstName</h3>
+
+</div>
+
+
+<div class="theSections">
+    
+    <h3>Description</h3>
+
+    <div id="theDescription">
+        
+        @Model.Description
+    </div>
+</div>
+
+
+<div class="theSections">
+    <h3>Participants:</h3>
+    <ul>
+        @foreach (var participant in Model.Participants)
+        {
+            <li>@participant.ParticipatingUsers.FirstName</li>
+        }
+    </ul>
+</div>

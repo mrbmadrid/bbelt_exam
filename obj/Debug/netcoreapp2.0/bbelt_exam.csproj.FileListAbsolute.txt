@@ -1,0 +1,11 @@
+/Users/cloud/Documents/Dojo_Assignments/dotNET/Core/bbelt_exam/bin/Debug/netcoreapp2.0/bbelt_exam.deps.json
+/Users/cloud/Documents/Dojo_Assignments/dotNET/Core/bbelt_exam/bin/Debug/netcoreapp2.0/bbelt_exam.runtimeconfig.json
+/Users/cloud/Documents/Dojo_Assignments/dotNET/Core/bbelt_exam/bin/Debug/netcoreapp2.0/bbelt_exam.runtimeconfig.dev.json
+/Users/cloud/Documents/Dojo_Assignments/dotNET/Core/bbelt_exam/bin/Debug/netcoreapp2.0/bbelt_exam.dll
+/Users/cloud/Documents/Dojo_Assignments/dotNET/Core/bbelt_exam/bin/Debug/netcoreapp2.0/bbelt_exam.pdb
+/Users/cloud/Documents/Dojo_Assignments/dotNET/Core/bbelt_exam/obj/Debug/netcoreapp2.0/bbelt_exam.csprojResolveAssemblyReference.cache
+/Users/cloud/Documents/Dojo_Assignments/dotNET/Core/bbelt_exam/obj/Debug/netcoreapp2.0/bbelt_exam.csproj.CoreCompileInputs.cache
+/Users/cloud/Documents/Dojo_Assignments/dotNET/Core/bbelt_exam/obj/Debug/netcoreapp2.0/bbelt_exam.AssemblyInfoInputs.cache
+/Users/cloud/Documents/Dojo_Assignments/dotNET/Core/bbelt_exam/obj/Debug/netcoreapp2.0/bbelt_exam.AssemblyInfo.cs
+/Users/cloud/Documents/Dojo_Assignments/dotNET/Core/bbelt_exam/obj/Debug/netcoreapp2.0/bbelt_exam.dll
+/Users/cloud/Documents/Dojo_Assignments/dotNET/Core/bbelt_exam/obj/Debug/netcoreapp2.0/bbelt_exam.pdb
